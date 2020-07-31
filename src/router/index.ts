@@ -6,6 +6,7 @@ import Container from '../components/container/index.vue'
 import Icon from '../components/icon/index.vue'
 import Button from '../components/button/index.vue'
 import Link from '../components/link/index.vue'
+import Radio from '../components/radio/index.vue'
 
 Vue.use(VueRouter);
 
@@ -39,6 +40,11 @@ const routes: Array<RouteConfig> = [
     path: "/link",
     name: "Link",
     component: Link
+  },
+  {
+    path: "/radio",
+    name: "Radio",
+    component: Radio
   }
 ];
 
