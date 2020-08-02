@@ -23,7 +23,7 @@ import RWDLayoutSpan from './layout-rwd-span'
 import RWDLayoutHidden from './layout-rwd-hidden'
 
 export default {
-    name: 'layout',
+    name: 'demo-el-layout',
     components: { BasicLayout, GuttersLayout, OffsetLayout, FlexLayoutJustify, FlexLayoutAlign, RWDLayoutSpan, RWDLayoutHidden },
     data() {
         return {

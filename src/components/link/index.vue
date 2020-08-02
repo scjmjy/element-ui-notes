@@ -17,7 +17,7 @@ import Underscore from './underscore'
 import DisabledLink from './disabled_link'
 
 export default {
-    name: 'layout',
+    name: 'demo-el-link',
     components: { BasicLink, IconLink, Underscore, DisabledLink },
     data() {
         return {

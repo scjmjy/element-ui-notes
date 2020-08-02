@@ -15,7 +15,7 @@ import VerticalContainer from './vertical'
 import MixedContainer from './mixed'
 
 export default {
-    name: 'layout',
+    name: 'demo-el-container',
     components: { HorizontalContainer, VerticalContainer, MixedContainer },
     data() {
         return {

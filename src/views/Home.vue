@@ -1,18 +1,19 @@
 <template>
     <div class="home">
-        <img alt="Vue logo" src="../assets/logo.png" />
-        <HelloWorld msg="Welcome to Your Vue.js App" />
+        <template v-for="(r, index) of routes">
+            <router-link v-if="index != 0" :key="r" :to="r.path" target="_blank">{{ r.name }}<br /></router-link>
+        </template>
     </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import { routes } from '../router/index'
 export default {
     name: 'Home',
-    components: {
-        HelloWorld
+    data() {
+        return {
+            routes
+        }
     }
 }
 </script>

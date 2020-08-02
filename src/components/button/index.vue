@@ -29,7 +29,7 @@ import ButtonSize from './button_size'
 import ButtonGroup from './button_group'
 
 export default {
-    name: 'layout',
+    name: 'demo-el-button',
     components: {
         BasicButton,
         PlainButton,

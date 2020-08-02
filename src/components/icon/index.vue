@@ -13,7 +13,7 @@ import BasicIcon from './basic_icon'
 import ButtonIcon from './button-icon'
 
 export default {
-    name: 'layout',
+    name: 'demo-el-icon',
     components: { BasicIcon, ButtonIcon },
     data() {
         return {

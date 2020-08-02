@@ -19,7 +19,7 @@ import ButtonStyleRadio from './button_style'
 import BorderStyleRadio from './border_style'
 
 export default {
-    name: 'layout',
+    name: 'demo-el-radio',
     components: { BasicRadio, DisabledRadio, RadioGroup, ButtonStyleRadio, BorderStyleRadio },
     data() {
         return {
